@@ -3,32 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bài 5</title>
-    <link rel="stylesheet" href="bai5.css">
+    <link rel="stylesheet" href="/New folder/Hochtml.css">
+    <title>Hoc html&&css</title>
 </head>
-<body>
- <div class="big_box">
-    <div class="big1" >
-        <h1 style="color: rgb(241, 37, 37);">Các trang mạng xã hội phổ biến </h1>
-        <div class="box1">
-            <div class="facebook">
-                <a href="https://www.facebook.com/" target="_blank"><img class="face" src="https://cdn.tgdd.vn/2020/03/GameApp/Facebook-200x200.jpg" alt=""><p> Facebook được xem là một trong các trang mạng xã hội phổ biến được các doanh nghiệp lựa chọn  thực hiện các chiến dịch quảng cáo hay truyền thông.</p></a></div>
-            <div class="ista">
-                <a href="https://www.instagram.com/" target="_blank"><img src="https://d41chssnpqdne.cloudfront.net/user_upload_by_module/image_tool/files/2214423/AjyKmScQpEAWjYHW.png?Expires=1704389836&Signature=XN67V6kVhtVILqYNtbRQrw9var6uLUujQRmD8aQOdqpmwU2yBz12p9YnKyTHL3g0iBLgs15-GSL73jQmlXh456nbBCdLzr5jG6k5j6zdDgTwzY5K00z49Kt8T8u0qw0zK7l0E-R1f0WD9b4Hk9dZsfR6wd1JtWSwZuEq-iOG4SRffpDp4Fonnwt30FoFtKmES5stOAYX8zGwRhaTN6TkGX-eh1kATyNGTWIdmt8TfFCir5683uoKQap1M~roSt2tUO83f4rvgN7SkzqOCXSrsq3GH2ESgl1TVanTTvtbumcYN-UqtXUH4l4yVASq2c9f3ymjnT1104Lukf2q5YVcJg__&Key-Pair-Id=K3USGZIKWMDCSX" alt=""><p>Instagram (thường được viết tắt là Insta hay IG) là một dịch vụ mạng xã hội chia sẻ hình</p></a>   
-            </div>    
-        
+<body >
+    <div style="color: red;">
+        <p>Các thẻ HTML cơ bản : </p>
+        <ol>
+            <li>"div": dùng để bọc các khối với nhau</li>
+            <li>"<"a herf="link " target="_balnk" rel="noopener noreferrer": dùng để gắn đường link  </li>
+            <li>"ol":dùng để làm danh sách có thứ tự </li>
+            <li>"ul" dùng để làm danh sách theo mục lục (gạch đầu dòng)</li>
+            <li>"h":dùng để làm tiêu đề </li>
+            <li>"img": để gắn hình ảnh 
+                "alt":để bổ sung nghĩa nếu ko có ảnh 
+            </li>
+            <li>"p": đoạn văn  </li>
+            <li>"header":đầu trang</li>
+            <li>"footer":chân trang</li>
+            <li>"aside": thẻ nằm bên trái or phải </li>
+            <li>"nav": điều hướng </li>
+            <li>"main": phần chính của web</li>
+            <li>"section":giống với div có thể bao 1 khối lại </li>
+            <li>"article":1 bài viết </li>
+            <li>"iframe": nhúng vào  </li>
+            <li>"span":dùng cho đoạn chữ ngắn </li>
+            <li>"strong": in đậm</li>
+            <li>"em":in nghiêng</li>
+            <li>"b":in đậm</li>
+            <li>"i":in nghiêng</li>
+            <li>"u": để gạch chân chữ </li>
+            <li>"del":để gạch xóa </li>
+          
+        </ol>   
+    <div>
+        <span>-Sự khác nhau giữa inline và block</span>
+        <ul>
+         I)
+            <li>Inline : sẽ có độ rộng bằng với nội dung mà nó chứa </li>
+            <li>Nếu có nhiều thẻ inline nằm với nhau nó sẽ nằm tên 1 hàng  </li>
+            <li>Bị hạn chế về thuộc tính CSS</li>
+        </ul>
+        <ul>
+           II)Block
+            <li> Có độ rộng full phần tử chứa nó </li>
+            <li>Nếu nhiều thẻ block nằm với nhau thì nó sẽ rớt xuống hàng </li>
+             
+        </ul>
+        <div>
+            <span>-Sự khác nhau giữa class và id </span>
+           <p>I)Class</p>
+            <li>Có thể trùng nhau,có thể dùng nhiều phần tử giống nhau </li>
+            <p>II)Id</p>
+            <li>Là duy nhất </li>
+            
         </div>
+        <>
+            <p>BEM : Block Element Modifier </p>
+            <p>Laptop : Block
+            </p>
+            <span>Keyboard,mouse,screen,touchpad : Element</span>
+            <p>Laptop big , laptop small: Modifier for Block</p>
+            <p>Small Keyboard ,small screen : Modifier for Element</p>
+            <p>Cấu trúc BEM : Block __Element--modifier </p>
+            <p>Or Block--modifier</p>
+            <p>Or Block__Element</p>
+            Ví dụ :
+            <p>Block : flash-message 
+            </p>
+            <p>Element : image,title,description(desc),button 
+            </p>
+            <p>block 1 & 2</p>
+            <p>flash-message </p>
+            <p>flash-message__image,flash-message__title,flash--desciption(desc),flash-message__button</p>
+            <p>Block 1 : flash-message--title__primary,flash-message--button__primary</p>
+            <p>Block 2 : flasg-message--title__secondary,flash-message--button__secondary</p>
+            
+    </div>    
+    <div>
+        <h3>
+            -CSS:file định dạng đuôi css viết mã để mã có thể thay đổi thuộc tính trình bày của html
+        </h3>
+        <h4>Để viết CSS: </h4>
+        <ol>
+            <li>Link trong html bằng thẻ link </li>
+            <li>Tạo file có đuôi .css</li>
+            <li>Học thuộc các thuộc tính css </li>
+        </ol>
+        <h4>
+            Các thuộc tính css: 
+        </h4>
+        <ol>
+            <li>color : màu chữ</li>
+            <li>width : độ rộng</li>
+            <li>margin : khoảng cách xung quay 1 phần tử <br> <ul>
+                <li>margin-left:chiều bên trái </li>
+                <li>margin-top:bên trên</li>
+                <li>margin-right:bên phải</li>
+                <li>margin-bottom:bên dưới </li>
+            </ul>
+            <li>font-family-ten của font</li>
+            <li>font-size-cỡ chữ : cỡ chữ</li>
+            <li>display-flex:chia cột  </li>
+            <li>border-bottom:1px solid gray: viền</li>
+            <li>padding-top:10px:khoảng cách bên trong viền</li>
+            <li>justify-content: space-between;:phân bố khoảng cách còn thừa ra giữa các cột </li>
+            <li>display:block :Để hiểu padding </li>
+            <li>list-style:none  :bỏ dấu chấm của thẻ ul  </li>
+            <li> text-decoration: none; : là bỏ các thuộc tính trên văn bản  </li>
+            <li>text-transform :biến đổi chữ </li>
+            <li>Transition: Khoảng thơi gian di chuột </li>
+            <li>Display:inline; : Để nằm trên 1 dòng </li>
+            <li>text-align:centre; : để chữ căn ra giữa màn hình </li>
+            <li>display : inline-block; : để hiểu padding và ko bị xuống dòng</li>
+            <li>flex-wrap : wrap ;:tự đọng xuống dòng </li>
+            <li>border-radius :là chỉnh hình ảnh bo tròn lại </li>
+            <li>border; : viền hình ảnh </li>
+            <li>opacity: chỉnh độ mờ đục </li>
+            <li>visibility:hidden; : hiển thị (hidden:ẩn giấu)       </li>
+            <li>display="none":có nhiệm vụ làm cho một phần tử ẩn đi.</li>
+            <li>Căn dọc : dùng display:flex; + align item:center</li>
+            <li>justify-content: flex-start và flex-end dùng cho chiều ngang start(bên trái) và end(bên phải):</li>
+            <li>align-item: flex-start và flex-end dùng cho chiều dọc end  </li>
+            <li>position: relative; : Dùng để thiết lập một phần tử sử dụng các thuộc tính position  mà không làm ảnh hưởng đến việc hiển thị ban đầu.
+                .</li>
+            <li>position:absolute; :  Dùng để thiết lập vị trí của một phần tử nhưng nó sẽ luôn nằm trong một phần tử mẹ đang là relative.
+            </li>
+            <li> transform: rotate(36000deg); : Để xoay (deg là độ )</li>
+            <li>position:fixed; :Hiển thị luôn đi theo trình duyệt khi cuộn trang.</li>
+            <li>z-index: tùy chỉnh lớp hiển thị </li>
+            <li>perspective: 500px; : Độ 3d</li>
+            <li>transform-origin:left top; : bàn lề cửa</li>
+            <li>background-size:cover;:Tự chia tỷ lệ tới kích thước lớn nhất của chiều rộng hoặc chiều cao để phù hợp với vùng nội dung
+            </li>            
+            <li> box-sizing: border-box; : Dùng để giữ kích thước khai báo ban đầu</li>
+            <li>overflow là một thuộc tính quyết định cách nội dung bên trong một phần tử HTML sẽ hiển thị khi nó vượt quá kích thước của phần tử đó. </li>
+            <li>box-sizing là một thuộc tính sẽ giúp bạn có thể tính toán và làm chủ được kích thước của một phần tử dựa vào thuộc tính width và height đã được thiết lập bên trong</li>
+        </ol>
+
+        <p>Thêm :hover : chế độ di chuột <br>
+        Ví dụ :.a :hover {}</p>
+            
+    
     </div>
-    <div class="big1" >
-        <div class="box1">
-            <div class="google">
-                <a href="https://www.google.com.vn/?hl=vi" target="_blank"><img class="face" src="https://www.google.com.vn/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""><p> Google là công cụ tìm kiếm thông qua Internet. Với Google, bạn có thể tìm được tất cả thông tin, hình ảnh, tài liệu,... mà bạn cần.</p></a></div>
-            <div class="youtube">
-                <a href="https://www.youtube.com/" target="_blank"><img src="https://image.nhandan.vn/w800/Files/Images/2021/04/13/3A708284_F5B8_407D_ADC0_339DBEE-1618275907021.jpeg.webp" alt=""><p>Youtube trang web cho phép người dùng tải lên, xem, chia sẻ, thêm vào danh sách phát, báo cáo và nhận xét về video.</p></a>
-            </div>    
-        
-        </div>
-    </div>
- </div>
+    
 </body>
 </html>
